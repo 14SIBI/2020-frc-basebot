@@ -37,10 +37,10 @@ public class TeleopModeLogic extends AbstractModeLogic {
 	@Override
 	public boolean isReady(String name) {
 		switch (name) {
-//			case "st_example_zero":
-//				return !fSharedInputValues.getBoolean("ipb_example_has_been_zeroed");
-			case "st_example":
-				return fSharedInputValues.getBooleanRisingEdge("ipb_operator_right_trigger");
+//			case "st_example":
+//				return fSharedInputValues.getBooleanRisingEdge("ipb_operator_right_trigger");
+			case "st_drivetrain":
+				return true;
 			default:
 				return false;
 		}
