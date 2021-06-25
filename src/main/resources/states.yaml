@@ -1,4 +1,6 @@
 single_state:
+  st_drivetrain:
+    behavior: bh_drivetrain
 
 # ------ Example ------
 
