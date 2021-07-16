@@ -3,6 +3,11 @@ talon:
     device_number: 5
     inverted: true
 
+  opn_ppp:
+    device_number: 0
+    inverted: true
+
+
 #  opn_drivetrain_left_primary:
 #    device_number: 0
 #    inverted: true
