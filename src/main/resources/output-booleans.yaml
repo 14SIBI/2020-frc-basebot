@@ -2,6 +2,12 @@ solenoid_double:
   opb_example:
     device_number_master: 1
     device_number_slave: 6
+
   opb_ppp:
     device_number_master: 0
     device_number_slave: 15
+
+  opb_thing:
+    device_number_master: 2
+    device_number_slave: 3
+

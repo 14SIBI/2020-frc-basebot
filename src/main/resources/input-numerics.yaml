@@ -44,7 +44,6 @@ controller_axis:
   ipn_operator_right_x:
     port: 1
     axis: 4
-    scale: 0.25
     deadband: 0.15
     inverted: true
 

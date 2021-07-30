@@ -14,17 +14,17 @@ general:
       default: [st_example_default]
 
 
-  subsystems: [ss_example]
+  subsystems: [ss_example, ss_robot_configuration_example]
 
-  input_booleans: [ipb_operator_right_trigger, ipb_operator_left_trigger]
+  input_booleans: [ipb_operator_right_trigger, ipb_operator_left_trigger, ipb_driver_dpad_right]
 
-  input_numerics: [ipn_driver_left_y]
+  input_numerics: [ipn_driver_left_y, ipn_driver_right_x, ipn_operator_right_x]
 
   input_vectors: [ipv_odometry]
 
-  output_numerics: [opn_ppp]
+  output_numerics: [opn_drivetrain_left, opn_drivetrain_right, opn_ppp]
 
-  output_booleans: [opb_ppp]
+  output_booleans: [opb_thing, opb_ppp]
 
 
 global_timing:
@@ -51,3 +51,6 @@ global_webdashboard:
 
   match_values:
 
+global_robot_configuration_example:
+  x: ipn_driver_right_x
+  y: ipn_driver_left_y
